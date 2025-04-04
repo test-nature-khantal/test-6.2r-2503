@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book>
+        <title lang="en">Harry Potter and the Sorcerer's Stone</title>
+        <author>J.K. Rowling</author>
+        <year>1997</year>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title lang="en">Nature Nature</title>
+        <author>J.R.R. Tolkien</author>
+        <year>1937</year>
+        <price>15.99</price>
+    </book>
+</bookstore>
