@@ -1,0 +1,2 @@
+' Simple SCT Script to display a message
+MsgBox "Hello, World!"
