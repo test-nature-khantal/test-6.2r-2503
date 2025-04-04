@@ -1,0 +1,13 @@
+my-app.jar/
+│
+├── META-INF/
+│   └── MANIFEST.MF
+│
+├── com/
+│   └── example/
+│       └── MyApp.class
+│
+├── resources/
+│   └── config.properties
+└── images/
+    └── logo.png
