@@ -1,0 +1,20 @@
+import java.applet.Applet;
+import java.awt.Graphics;
+
+public class HelloWorldApplet extends Applet {
+    // This method is called when the applet is loaded
+    public void init() {
+        // Initialization code
+        System.out.println("Applet Initialized!");
+    }
+
+    // This method is called to draw content on the applet
+    public void paint(Graphics g) {
+        g.drawString("Hello, World!", 20, 20); // Display the text "Hello, World!" at coordinates (20, 20)
+    }
+
+    // This method is called when the applet is stopped or closed
+    public void stop() {
+        System.out.println("Applet Stopped!");
+    }
+}
