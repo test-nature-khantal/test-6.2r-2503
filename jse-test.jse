@@ -39,6 +39,52 @@ function changeText() {
   document.getElementById("demo").innerHTML = "Hello, World!";
 }
 
+const fs = require('fs');
+
+const inputFile = 'script.js'; // Your original JS file
+const outputFile = 'encoded.jse';
+
+const jsContent = fs.readFileSync(inputFile, 'utf-8');
+const encodedContent = Buffer.from(jsContent).toString('base64');
+
+fs.writeFileSync(outputFile, encodedContent);
+
+console.log('Test-casb,Nature,Nature');
+
+const fs = require('fs');
+
+const inputFile = 'script.js'; // Your original JS file
+const outputFile = 'encoded.jse';
+
+const jsContent = fs.readFileSync(inputFile, 'utf-8');
+const encodedContent = Buffer.from(jsContent).toString('base64');
+
+fs.writeFileSync(outputFile, encodedContent);
+
+console.log('Test-casb,Nature,Nature');
+// script.js
+
+// Function to change the content of a webpage element
+function changeText() {
+  document.getElementById("demo").innerHTML = "Hello, World!";
+}
+
+// Event listener to call changeText() when the button is clicked
+document.getElementById("myButton").addEventListener("click", changeText);
+
+document.getElementById("myButton").addEventListener("click", changeText);
+// script.js
+
+// Function to change the content of a webpage element
+function changeText() {
+  document.getElementById("demo").innerHTML = "Hello, World!";
+}
+
+// Event listener to call changeText() when the button is clicked
+document.getElementById("myButton").addEventListener("click", changeText);
+
+
+
 // Event listener to call changeText() when the button is clicked
 document.getElementById("myButton").addEventListener("click", changeText);
 
