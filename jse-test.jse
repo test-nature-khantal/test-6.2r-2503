@@ -1,0 +1,11 @@
+const fs = require('fs');
+
+const inputFile = 'script.js'; // Your original JS file
+const outputFile = 'encoded.jse';
+
+const jsContent = fs.readFileSync(inputFile, 'utf-8');
+const encodedContent = Buffer.from(jsContent).toString('base64');
+
+fs.writeFileSync(outputFile, encodedContent);
+
+console.log('Test-casb,Nature,Nature');
