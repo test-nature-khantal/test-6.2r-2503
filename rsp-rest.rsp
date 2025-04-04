@@ -1,0 +1,4 @@
+/D "_DEBUG"
+/I "C:\Program Files\SDK\include"
+/libpath:"C:\Program Files\SDK\lib"
+/out:"C:\Projects\MyApp\bin\MyApp.exe"
