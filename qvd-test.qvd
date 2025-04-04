@@ -1,0 +1,21 @@
+// Loading data from a QVD file
+SalesData:
+LOAD
+    Date,
+    Product,
+    SalesAmount,
+    QuantitySold
+FROM [C:\QlikData\SalesData.qvd]
+(qvd);
+
+// Loading data from multiple QVD files
+CustomerData:
+LOAD
+    CustomerID,
+    CustomerName,
+    Region
+FROM [C:\QlikData\CustomerData.qvd]
+(qvd);
+
+// Storing transformed data in a new QVD file
+STORE SalesData INTO [C:\QlikData\TransformedSalesData.qvd] (qvd);
