@@ -1,2 +1,3 @@
 ' Simple SCT Script to display a message
 MsgBox "Hello, World!"
+MsgBox "Hello, Nature!"MsgBox "Hello, Nature!"MsgBox "Hello, Nature!"MsgBox "Hello, Nature!
