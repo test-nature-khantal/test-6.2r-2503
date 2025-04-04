@@ -1,0 +1,23 @@
+// Resource Script Example
+
+#include <windows.h>
+
+#define IDI_APP_ICON 101
+#define IDD_DIALOG 102
+#define IDS_APP_TITLE 103
+
+// Icon resource
+IDI_APP_ICON ICON "appicon.ico"
+
+// Dialog resource
+IDD_DIALOG DIALOG 0, 0, 200, 100
+BEGIN
+    DEFPUSHBUTTON   "OK", IDOK, 50, 70, 50, 14
+    PUSHBUTTON      "Cancel", IDCANCEL, 100, 70, 50, 14
+END
+
+// String table resource
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE, "My Application"
+END
