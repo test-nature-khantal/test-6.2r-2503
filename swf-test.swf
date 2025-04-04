@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Animation Example</title>
+</head>
+<body>
+    <!-- Embedding an SWF file in a webpage -->
+    <object type="application/x-shockwave-flash" data="example.swf" width="500" height="400">
+        <param name="movie" value="example.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="transparent" />
+    </object>
+</body>
+</html>
