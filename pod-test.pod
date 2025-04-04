@@ -1,0 +1,15 @@
+# This is a simple Perl script with POD documentation
+
+=head1 DESCRIPTION
+
+This is a simple Perl program that does something useful.
+
+=head2 Function1
+
+This function does something very specific.
+
+=cut
+
+# Perl code starts here
+
+print "Hello, world!\n";
