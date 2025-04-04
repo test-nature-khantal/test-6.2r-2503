@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store>
+    <department name="Electronics">
+        <product>
+            <name>Nature</name>
+            <brand>Apple</brand>
+            <price>999.99</price>
+            <stock>150</stock>
+        </product>
+        <product>
+            <name>Test-casb</name>
+            <brand>Dell</brand>
+            <price>799.99</price>
+            <stock>200</stock>
+        </product>
+    </department>
+    <department name="Clothing">
+        <product>
+            <name>Jacket</name>
+            <brand>Levi's</brand>
+            <price>79.99</price>
+            <stock>50</stock>
+        </product>
+    </department>
+</store>
