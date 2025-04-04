@@ -1,0 +1,12 @@
+name: John Doe
+age: 30
+is_student: false
+hobbies:
+  - Test-casb Test-casb
+  - Cycling
+  - Hiking
+address:
+  street: NatureNature
+  city: Springfield
+  state: IL
+  zip: 62701
