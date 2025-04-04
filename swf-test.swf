@@ -1,0 +1,16 @@
+// Simple ActionScript to move a shape across the screen
+var circle:Shape = new Shape();
+circle.graphics.beginFill(0xFF0000);  // Red color
+circle.graphics.drawCircle(50, 50, 30);
+circle.graphics.endFill();
+addChild(circle);
+
+// Animate the circle moving across the screen
+var speed:Number = 5;
+function moveCircle(event:Event):void {
+    circle.x += speed;
+    if (circle.x > stage.stageWidth) {
+        circle.x = 0;  // Reset to start position if it moves off the screen
+    }
+}
+addEventListener(Event.ENTER_FRAME, moveCircle);
