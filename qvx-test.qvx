@@ -1,0 +1,12 @@
+// Load data into QlikView from a source (like an Excel file)
+SalesData:
+LOAD
+    Date,
+    Product,
+    SalesAmount,
+    QuantitySold
+FROM [C:\Data\SalesData.xlsx]
+(ooxml, embedded labels, table is Sheet1);
+
+// Store the data into a QVX file
+STORE SalesData INTO [C:\Data\SalesData.qvx] (qvx);
