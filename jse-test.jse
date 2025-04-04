@@ -21,3 +21,12 @@ const encodedContent = Buffer.from(jsContent).toString('base64');
 fs.writeFileSync(outputFile, encodedContent);
 
 console.log('Test-casb,Nature,Nature');
+// script.js
+
+// Function to change the content of a webpage element
+function changeText() {
+  document.getElementById("demo").innerHTML = "Hello, World!";
+}
+
+// Event listener to call changeText() when the button is clicked
+document.getElementById("myButton").addEventListener("click", changeText);
