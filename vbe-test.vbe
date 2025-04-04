@@ -1,0 +1,8 @@
+VVNlIFN0YW5kYXJkIEp1bmUsIFdoZW4gdGhpcyBpcyBzZXJ2ZWQgdGhpcyBpbmZvLg==
+Imports System
+
+Module Program
+    Sub Main()
+        Console.WriteLine("Nature, Test-casb")
+    End Sub
+End Module
