@@ -1,0 +1,14 @@
+{
+  "en-US": {
+    "welcomeMessage": "Welcome to the application!",
+    "exitMessage": "Are you sure you want to exit?"
+  },
+  "fr-FR": {
+    "welcomeMessage": "Bienvenue dans l'application!",
+    "exitMessage": "Êtes-vous sûr de vouloir quitter?"
+  },
+  "es-ES": {
+    "welcomeMessage": "¡Bienvenido a la aplicación!",
+    "exitMessage": "¿Estás seguro de que quieres salir?"
+  }
+}
