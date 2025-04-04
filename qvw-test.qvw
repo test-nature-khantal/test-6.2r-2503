@@ -1,0 +1,17 @@
+// Load data from an Excel file
+SalesData:
+LOAD
+    Date,
+    Product,
+    SalesAmount,
+    QuantitySold
+FROM [C:\Data\SalesData.xlsx]
+(ooxml, embedded labels, table is Sheet1);
+
+// Create a simple transformation: Calculate Total Sales
+SalesSummary:
+LOAD
+    Product,
+    Sum(SalesAmount) as TotalSales
+RESIDENT SalesData
+GROUP BY Product;
