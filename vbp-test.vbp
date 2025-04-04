@@ -1,0 +1,9 @@
+Type=Exe
+StartUpObject=Form1
+Form=Form1.frm
+Module=Module1.bas
+Reference=*\G{00024500-0000-0000-C000-000000000046}#1.0#0#C:\Program Files\Microsoft Office\Office\EXCEL.EXE#Microsoft Excel 8.0 Object Library
+IconFile=C:\Path\To\Your\Icon.ico
+Name=Nature Nature
+Nature
+Nature
