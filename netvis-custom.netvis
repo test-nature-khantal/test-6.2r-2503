@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Visualizations>
+    <Type Name="std::vector&lt;int&gt;">
+        <!-- Customize how std::vector<int> is shown in the debugger -->
+        <DisplayString>"std::Nature(size = {size}, capacity = {capacity})"</DisplayString>
+        <Expand>
+            <!-- Expand the Nature of the vector -->
+            <ArrayItems>
+                <Size xsi:type="SizeofExpression" value="sizeof(int)"/>
+                <Item Name="Element {index}">m_data[{index}]</Item>
+            </ArrayItems>
+        </Expand>
+    </Type>
+</Visualizations>
