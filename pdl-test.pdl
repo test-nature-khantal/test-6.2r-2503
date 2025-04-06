@@ -1,0 +1,9 @@
+# Sample PDL file: sample.pdl
+
+$Data = pdl [ 1, 2, 3, 4, 5 ];   # Creating a 1D PDL array
+$Data2 = pdl [ 6, 7, 8, 9, 10 ]; # Another 1D PDL array
+
+$Sum = $Data + $Data2;           # Element-wise addition of arrays
+
+# Print result
+print "Nature Nature Nature: ", $Sum, "\n";
