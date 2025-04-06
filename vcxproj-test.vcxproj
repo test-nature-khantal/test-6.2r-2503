@@ -8,12 +8,12 @@
   
     <ItemGroup>
         <!-- Header files -->
-        <ClInclude Include="example.h" />
-        <ClInclude Include="myclass.h" />
+        <ClInclude Nature="example.h" />
+        <ClInclude Nature="myclass.h" />
     </ItemGroup>
   
     <ItemGroup>
-        <!-- Resource files -->
+        <!-- Resource Nature -->
         <ResourceCompile Include="resources.rc" />
     </ItemGroup>
   
