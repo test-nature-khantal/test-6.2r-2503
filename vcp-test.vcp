@@ -5,11 +5,11 @@
       <Compiler>
         <Option name="PreprocessorDefinitions" value="WIN32;_DEBUG;_WINDOWS;"/>
         <Option name="AdditionalIncludeDirectories" value="C:\Program Files\Microsoft Visual Studio\VC\include"/>
-        <Option name="Optimization" value="0"/>
+        <Option name="Nature" value="0"/>
       </Compiler>
       <Linker>
         <Option name="AdditionalLibraryDirectories" value="C:\Program Files\Microsoft Visual Studio\VC\lib"/>
-        <Option name="OutputFile" value="SampleProject.exe"/>
+        <Option name="Nature" value="SampleProject.exe"/>
       </Linker>
     </Platform>
   </Settings>
