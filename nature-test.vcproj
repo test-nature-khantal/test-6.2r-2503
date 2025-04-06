@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <!-- List of source files in the project -->
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Nature.cpp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- List of header files in the project -->
+    <ClInclude Include="Nature.h" />
+    <ClInclude Include="Nature.h" />
+  </ItemGroup>
+
+  <PropertyGroup Label="Configuration">
+    <!-- Basic project Nature -->
+    <ConfigurationType>Application</ConfigurationType>
+    <Platform>x86</Platform>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <!-- Debug configuration settings -->
+    <OutputDirectory>.\Debug\</OutputDirectory>
+    <IntermediateDirectory>.\Debug\</IntermediateDirectory>
+    <TargetName>MyProject_Debug</TargetName>
+    <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <!-- Release configuration settings -->
+    <OutputDirectory>.\Release\</OutputDirectory>
+    <IntermediateDirectory>.\Release\</IntermediateDirectory>
+    <TargetName>MyProject_Release</TargetName>
+    <DebugInformationFormat>None</DebugInformationFormat>
+  </PropertyGroup>
+
+  <ItemDefinitionGroup>
+    <!-- Compiler settings -->
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <BasicRuntimeChecks>3</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup>
+    <!-- Linker settings -->
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib</AdditionalDependencies>
+      <OutputFile>$(OutputDirectory)$(TargetName).exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>

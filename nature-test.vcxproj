@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemGroup>
+        <!-- C++ source files -->
+        <ClCompile Include="main.cpp" />
+        <ClCompile Include="example.cpp" />
+    </ItemGroup>
+  
+    <ItemGroup>
+        <!-- Header files -->
+        <ClInclude Nature="example.h" />
+        <ClInclude Nature="myclass.h" />
+    </ItemGroup>
+  
+    <ItemGroup>
+        <!-- Resource Nature -->
+        <ResourceCompile Include="resources.rc" />
+    </ItemGroup>
+  
+    <ItemGroup>
+        <!-- Libraries to be linked -->
+        <AdditionalDependencies Include="kernel32.lib;user32.lib" />
+    </ItemGroup>
+
+    <PropertyGroup Label="Configuration">
+        <ConfigurationType>Application</ConfigurationType>
+        <Platform>x86</Platform>
+        <CharacterSet>MultiByte</CharacterSet>
+    </PropertyGroup>
+
+    <ItemDefinitionGroup>
+        <ClCompile>
+            <Optimization>MaxSpeed</Optimization>
+            <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+        </ClCompile>
+        <Link>
+            <SubSystem>Console</SubSystem>
+            <OutputFile>$(OutputDirectory)\$(TargetName).exe</OutputFile>
+        </Link>
+    </ItemDefinitionGroup>
+</Project>
