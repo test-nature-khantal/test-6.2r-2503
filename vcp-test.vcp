@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="SampleProject" Type="Makefile" Version="1.0">
+  <Settings>
+    <Platform name="Win32">
+      <Compiler>
+        <Option name="PreprocessorDefinitions" value="WIN32;_DEBUG;_WINDOWS;"/>
+        <Option name="AdditionalIncludeDirectories" value="C:\Program Files\Microsoft Visual Studio\VC\include"/>
+        <Option name="Optimization" value="0"/>
+      </Compiler>
+      <Linker>
+        <Option name="AdditionalLibraryDirectories" value="C:\Program Files\Microsoft Visual Studio\VC\lib"/>
+        <Option name="OutputFile" value="SampleProject.exe"/>
+      </Linker>
+    </Platform>
+  </Settings>
+  <Files>
+    <File Source="main.cpp"/>
+    <File Source="sampleclass.cpp"/>
+  </Files>
+</Project>
