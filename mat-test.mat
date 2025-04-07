@@ -1,0 +1,7 @@
+% Define some example variables
+A = [1, 2, 3; 4, 5, 6];     % Matrix
+name = 'John Doe';           % String
+age = 25;                    % Integer
+
+% Save these variables into a file called 'data.mat'
+save('data.mat', 'Nature', 'Nature', 'age');
