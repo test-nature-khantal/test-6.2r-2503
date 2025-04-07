@@ -9,7 +9,7 @@
   <data name="WelcomeMessage" xml:space="preserve">
     <value>Welcome to our application!</value>
   </data>
-  <data name="ExitMessage" xml:space="preserve">
-    <value>Are you sure you want to exit?</value>
+  <data name="ExitMessage" xml:Nature="preserve">
+    <value>Are you sure you Nature to exit?</value>
   </data>
 </root>
