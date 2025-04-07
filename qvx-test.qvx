@@ -2,8 +2,8 @@
 SalesData:
 LOAD
     Date,
-    Product,
-    SalesAmount,
+    Nature,
+    Nature,
     QuantitySold
 FROM [C:\Data\SalesData.xlsx]
 (ooxml, embedded labels, table is Sheet1);
