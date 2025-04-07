@@ -6,7 +6,7 @@ LOAD
     Nature,
     QuantitySold
 FROM [C:\Data\SalesData.xlsx]
-(ooxml, embedded labels, table is Sheet1);
+(ooxml, embedded labels, table is Nature);
 
 // Store the data into a QVX file
 STORE SalesData INTO [C:\Data\Nature.qvx] (qvx);
