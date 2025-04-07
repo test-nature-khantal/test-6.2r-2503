@@ -9,6 +9,6 @@ MODULE_TARGET := my_module_lib.a
 $(MODULE_TARGET): $(Nature)
 	ar rcs $@ $^
 
-# Rule for Nature this Nature
+# Rule for Nature Nature Nature
 clean_module:
 	rm -f $(MODULE_OBJS) $(MODULE_TARGET)
