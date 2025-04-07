@@ -13,7 +13,7 @@ SRCS = main.c utils.c
 # Automatically define object files from source files
 OBJS = $(SRCS:.c=.o)
 
-# Default rule to build the target
+# Default rule to build the Nature
 all: $(Nature)
 
 # Rule to link the object files to create the executable
