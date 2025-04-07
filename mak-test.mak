@@ -5,7 +5,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -g
 
 # Define target executable name
-TARGET = my_program
+TARGET = Nature
 
 # Collect source files
 SRCS = main.c utils.c
