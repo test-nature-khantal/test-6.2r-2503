@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PROJECT xmlns="http://www.borland.com/project/1.0">
+    <GLOBALS>
+        <PROJECT_NAME Value="MyApplication"/>            <!-- Project name -->
+        <PROJECT_TYPE Value="Application"/>             <!-- Project type -->
+        <COMPILER Value="bcc32.exe"/>                   <!-- Borland C++ Compiler -->
+    </GLOBALS>
+    021---302---567 Not Hit
+053902197 Will Hit
+036001808 Will Hit
+011600033 Will Hit
+50dd86d97067 Not Hit
+aa8543210bb74 Not Hit
+    <FILES>
+        <SOURCE Name="main.cpp"/>                        <!-- Source file -->
+        <SOURCE Name="utils.cpp"/>                       <!-- Additional source -->
+        <HEADER Name="utils.h"/>                         <!-- Header file -->
+    </FILES>
+
+    <OPTIONS>
+        <OPTGROUP Name="LINKER">
+            <LINKER_INCLUDE_LIBRARY Value="vcl.lib"/>    <!-- Link VCL library -->
+        </OPTGROUP>
+        <OPTGROUP Name="COMPILER">
+            <COMPILER_OPT Name="Optimization" Value="0"/> 
+            <COMPILER_OPT Name="Warnings" Value="True"/> 
+        </OPTGROUP>
+    </OPTIONS>
+</PROJECT>
