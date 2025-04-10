@@ -1,0 +1,30 @@
+HEADER Version 1.0
+UNITS
+    DatabaseUnit: 0.001
+    PhysicalUnit: 1e-9
+
+TABLE LayerTable
+    Layer 1: Metal1
+    Layer 2: Metal2
+
+BEGIN CELL RootCell
+    RECTANGLE
+        Layer: 1
+        Coordinates: (0, 0), (100, 0), (100, 100), (0, 100)
+        Type: Filled
+
+    POLYGON
+        Layer: 2
+        Coordinates: (200, 200), (300, 200), (300, 300), (200, 300)
+        Type: Filled
+
+    TEXT
+        Layer: 2
+        Position: (400, 400)
+        Text: "IC Example"
+END CELL
+
+BEGIN CELL SubCell
+    REFERENCE RootCell
+    Position: (1000, 1000)
+END CELL
