@@ -1,0 +1,27 @@
+HEADER Version 1.0
+UNIT DatabaseUnit: 0.001, PhysicalUnit: 1e-9
+
+LAYER 1 NAME "Metal1"
+LAYER 2 NAME "Metal2"
+
+BEGIN CELL "TopCell"
+    RECTANGLE
+        Layer: 1
+        Coordinates: (0, 0), (200, 0), (200, 200), (0, 200)
+        Type: Filled
+
+    POLYGON
+        Layer: 2
+        Coordinates: (300, 300), (400, 300), (350, 400)
+        Type: Filled
+
+    TEXT
+        Layer: 1
+        Position: (10, 10)
+        String: "Hello, OASIS"
+END CELL
+
+BEGIN CELL "SubCell"
+    REFERENCE Cell: "TopCell"
+    Position: (500, 500)
+END CELL
