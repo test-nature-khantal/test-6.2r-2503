@@ -1,0 +1,12 @@
+44
+From: sender@example.com
+To: recipient@example.com
+Subject: Hello from Apple Mail
+Date: Mon, 1 Oct 2023 11:00:00 +0000
+Message-ID: <1234567890@example.com>
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+This is a message sent from Apple Mail.
