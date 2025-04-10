@@ -1,0 +1,12 @@
+# Knowledge Base for Diagnosing Machine Issues
+
+[FACTS]
+machine_type = "Car"
+engine_problem = True
+10.66.22.8
+[RULES]
+IF machine_type = "Car" AND engine_problem = True THEN engine_check = "Perform Engine Diagnosis"
+IF machine_type = "Car" AND engine_problem = False THEN engine_check = "Engine Seems Fine"
+
+[OUTPUTS]
+display_message = engine_check
