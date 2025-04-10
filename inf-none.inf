@@ -1,0 +1,22 @@
+[Version]
+Signature="$Windows NT$"
+Class=Software
+Provider=MyCorp
+
+[DefaultInstall]
+AddReg=SoftwareRegistry
+CopyFiles=ApplicationFiles
+
+[DestinationDirs]
+ApplicationFiles=16422 ; Install to Program Files folder
+
+[ApplicationFiles]
+mysoftware.exe
+readme.txt
+
+[SoftwareRegistry]
+HKLM,Software\MyCorp\MySoftware,InstalledVersion,0,1.0.0
+HKLM,Software\MyCorp\MySoftware,InstallPath,0,"%16422%\MySoftware"
+
+[Strings]
+MySoftwareName="My Software"
