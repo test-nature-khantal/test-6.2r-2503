@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDXML xmlns="http://www.cambridgesoft.com/xml/cdxml/1">
+    <page Bounds="0 0 500 500">
+        <fragment id="f1">
+            <nucleus id="n1" elementType="O" X="250" Y="250"/>
+            <nucleus id="n2" elementType="H" X="275" Y="275"/>
+            <nucleus id="n3" elementType="H" X="225" Y="275"/>
+            <bond id="b1" atomRefs2="n1 n2" order="1"/>
+            <bond id="b2" atomRefs2="n1 n3" order="1"/>
+        </fragment>
+    </page>
+</CDXML>
