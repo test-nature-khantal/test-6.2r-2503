@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<PROJECT xmlns='http://www.borland.com/project'>
+    <GLOBALS>
+        <PROJECT_NAME Value="SampleProject"/>
+        <PROJECT_TYPE Value="Application"/>
+        <COMPILER Value="bcc32.exe"/>
+        <PLATFORM Value="Win32"/>
+    </GLOBALS>
+
+    <FILES>
+        <FILE Name="src\main.cpp" FileType="CppSource"/>
+        <FILE Name="src\helpers.cpp" FileType="CppSource"/>
+        <FILE Name="include\helpers.h" FileType="CppHeader"/>
+        <FILE Name="res\sample.rc" FileType="Resource"/>
+    </FILES>
+
+    <OPTIONS>
+        <COMPILER>
+            <OPTGROUP Name="Debug">
+                <OPTION Name="Generate Debug Info" Value="True"/>
+            </OPTGROUP>
+            <OPTGROUP Name="Optimization">
+                <OPTION Name="Optimize Code" Value="False"/> <!-- No optimization during debug -->
+            </OPTGROUP>
+        </COMPILER>
+        korean resident registration number
+970403-2966211 Will Hit
+!780220-1296377@ Will Hit
+720590-2208919 Not Hit (Invalid Number,Fails popular Format Check)
+#840..719-2145299@ Not Hit
+D921009-5664079D Not Hit
+        <LINKER>
+            <LIBRARY Name="vcl.lib"/>  <!-- Borland VCL library -->
+            <LIBRARY Name="rtl.lib"/>  <!-- Runtime library -->
+            <LIBRARY Name="user32.lib"/> <!-- Windows UI library -->
+        </LINKER>
+        
+        <SEARCH_PATHS>
+            <PATH Name="Include" Value="C:\Borland\Include"/>
+            <PATH Name="Lib" Value="C:\Borland\Lib"/>
+        </SEARCH_PATHS>
+    </OPTIONS>
+</PROJECT>
